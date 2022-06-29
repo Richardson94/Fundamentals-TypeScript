@@ -9,6 +9,8 @@ export class Persona{
         this.LastName = LastName;
         this.Age = Age;
     }
-    
+    getEdad(){
+        return this.Age;
+    }
 
 }
