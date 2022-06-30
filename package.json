@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "npx jest",
-    "start" : "nodemon ./index.ts"
+    "start":"nodemon ./index.ts",
+    "start:function" : "nodemon ./functions/index.ts",
+    "start:class" : "nodemon ./classes/index.ts",
+    "start:queue" : "nodemon ./queues/index.ts"
+    
   },
   "repository": {
     "type": "git",
