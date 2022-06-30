@@ -1,10 +1,7 @@
-let persona ={
-    nombre: ' Nelson',
-    edad: 28,
-    direccion:{
-        calle: 'octavio campero',
-        zona: 'Antofagasta'
-    }
-}
+import { Persona } from './classes/persona';
 
- console.log(persona);
+let People= new Persona('Nelson','Richard',28);
+
+
+ console.log(People);
+ console.log(People.getEdad());
