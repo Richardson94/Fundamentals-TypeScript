@@ -4,6 +4,8 @@
   "description": "Workspace to practice TypeScript language",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
     "test": "npx jest",
     "start": "nodemon ./index.ts",
     "start:function": "nodemon ./functions/index.ts",
