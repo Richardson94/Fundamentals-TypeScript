@@ -1,0 +1,29 @@
+{
+  "name": "tests-typescript",
+  "version": "1.0.0",
+  "description": "Workspace to practice TypeScript language",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest",
+    "start" : "nodemon ./index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richardson94/Tests-TypeScript.git"
+  },
+  "author": "RichardSon94",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Richardson94/Tests-TypeScript/issues"
+  },
+  "homepage": "https://github.com/Richardson94/Tests-TypeScript#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.3",
+    "concurrently": "^7.2.2",
+    "jest": "^28.1.2",
+    "nodemon": "^2.0.18",
+    "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
