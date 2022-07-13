@@ -1,7 +1,10 @@
-function modify (array,callback) {
+function modify (array, callback) {
   array.push('prueba');
   setTimeout(function () {
     callback(array);
+    setTimeout(function () {
+      callback(array);
+    }, 3000);
   }, 3000);
 }
 
